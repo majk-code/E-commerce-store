@@ -1,0 +1,91 @@
+.offers {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+}
+
+.offers-small-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(150,150,150);
+}
+
+.offers-topbar-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.offers h2 {
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.offers-middle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.offers-grey-text {
+    color: rgb(150,150,150);
+}
+
+.offers-low {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px) {
+    .offers {
+        padding: 120px 0px;
+    }
+
+    .offers h2 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .offers {
+        padding: 60px 0px;
+    }
+
+    .offers h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .offers {
+        padding: 60px 0px;
+    }
+
+    .offers h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .offers h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .offers h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .offers-small-text {
+        margin: 0px 10px;
+    }
+
+    .offers {
+        padding: 12px;
+    }
+    .offers h2 {
+        font-size: 16px;
+    }
+}

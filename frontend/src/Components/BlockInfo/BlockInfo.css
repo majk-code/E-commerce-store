@@ -1,0 +1,62 @@
+.blockinfo {
+    padding: 120px 0px 0px 0px;
+    width: 100%;
+}
+
+.blockinfo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.blockinfo-text {
+    flex: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blockinfo-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockinfo-text h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.blockinfo-text p {
+    color: white;
+    align-self: flex-end;
+}
+
+.blockinfo-image {
+    flex: 1;
+    object-fit: cover;
+}
+
+.blockinfo-image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1260px) {
+    .blockinfo h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .blockinfo h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .blockinfo h2 {
+        font-size: 14px;
+    }
+}

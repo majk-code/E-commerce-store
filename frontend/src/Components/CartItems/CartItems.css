@@ -1,0 +1,121 @@
+.cartitems {
+    padding: 40px 120px;
+}
+
+.carticon-product-image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    padding: 20px;
+    background-color: #d3d2cf;
+}
+
+.cartitems-cart-title {
+    font-size: 80px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.cartitems-format-main {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitems-format {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitems-product-icon {
+    height: 62px;
+}
+.cartitems-remove-icon {
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.remove-icon {
+    transition: 0.2s ease-in-out;
+}
+
+.remove-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.cartitems-quantity {
+    width: 64px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.cartitems-down {
+    display: flex;
+    margin: 100px 0px;
+}
+
+.cartitems-total {
+    flex: 1;
+    flex-direction: column;
+}
+
+.cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.cartitems-total button {
+    padding: 16px 32px;
+    background: transparent;
+    color: black;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.cartitems-total button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .cartitems-format-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cartitems hr {
+        display: none;
+    }
+
+    .cartitems-format-categories {
+        display: none;
+    }
+
+    .cartitem-name {
+        width: 200px;
+    }
+
+    .cartitems {
+        padding: 40px;
+    }
+}

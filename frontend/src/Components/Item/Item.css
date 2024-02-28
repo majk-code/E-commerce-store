@@ -1,0 +1,49 @@
+.item {
+    height: 550px;
+    overflow: hidden;
+}
+
+.item-main {
+    overflow: hidden;
+}
+
+.item-main p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.item-container {
+    height: 520px;
+    overflow: hidden;
+    background-color: #d5d4d3;
+}
+
+.item-image {
+    width: 350px;
+    height: 530px;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.item:hover .item-image {
+    transform: scale(1.2);
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+    .item-image {
+        width: 300px;
+    }
+    
+    .item-container {
+        width: 300px;
+    }
+}
