@@ -13,7 +13,7 @@ export const Hero = () => {
         <div className="header-wrapper">
           <div className="header-top-tags">FW'24</div>
           <div className="see-new-collection-btn">
-            <span>SEE NEW COLLECTION</span>
+            <Link to="/fw2024"><span>SEE NEW COLLECTION</span></Link>
             <img className='see-new-collection-btn-icon' src={uparrow_icon} alt="" />
           </div>
         </div>
