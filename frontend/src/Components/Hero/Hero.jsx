@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Hero/Hero.css'
 import uparrow_icon from '../Assets/up-right-arrow.png'
+import { Link } from 'react-router-dom';
 
 export const Hero = () => {
   return (
