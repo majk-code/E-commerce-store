@@ -8,7 +8,6 @@ How to run this app?
 // pull files into your vscode editor
 // go into frontend: cd frontend
 // npm start to run frontend react app
-
 // then run backend node server
 // return to main folder
 // go into backend: cd backend
